@@ -13,4 +13,4 @@ datagroup: bq_default_datagroup {
 
 persist_with: bq_default_datagroup
 
-explore: expenses {}
+explore: expenses_live {}
