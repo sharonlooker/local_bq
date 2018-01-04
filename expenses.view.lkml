@@ -1,4 +1,4 @@
-view: exp {
+view: expenses {
   sql_table_name: expenses.exp ;;
 
   dimension: amount {
