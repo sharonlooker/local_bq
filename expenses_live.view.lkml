@@ -14,7 +14,7 @@ view: expenses_live {
     link: {
       icon_url: "https://looker.com/favicon.ico"
       label: "Filter by {{value}}"
-      url: "/dashboards/12?Date={{ _filters['expenses.created_date']|uri_encode }}&Category={{value}}"
+      url: "/dashboards/13?Date={{ _filters['expenses.created_date']|uri_encode }}&Category={{value}}"
     }
   }
 
