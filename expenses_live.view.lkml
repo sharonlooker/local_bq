@@ -3,6 +3,7 @@ view: expenses_live {
 
   dimension: amount {
     type: number
+    value_format_name: usd
     hidden: yes
     sql: ${TABLE}.amount ;;
   }
