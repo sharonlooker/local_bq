@@ -3,6 +3,7 @@ view: expenses {
 
   dimension: amount {
     type: number
+    hidden: yes
     sql: ${TABLE}.Amount ;;
   }
 
@@ -63,5 +64,6 @@ view: expenses {
     type: sum
     value_format_name: usd
     sql: ${amount} ;;
+    drill_fields: [created_date, vendor, amount, category, subcategory]
   }
 }
