@@ -15,4 +15,6 @@ persist_with: bq_default_datagroup
 
 explore: expenses_live {}
 
-explore: expenses {}
+explore: expenses {
+  hidden: yes
+}
