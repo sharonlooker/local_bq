@@ -1,5 +1,5 @@
 view: expenses_live {
-  sql_table_name: expenses.exp_gs ;;
+  sql_table_name: `expenses.exp_gs` ;;
 
   dimension: amount {
     type: number
